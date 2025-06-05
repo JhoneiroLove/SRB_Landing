@@ -5,9 +5,25 @@ const HeroSection: React.FC = () => {
   return (
     <section 
       id="about" 
-      className="pt-24 pb-16 text-white bg-gradient-to-br from-red-800 to-red-950"
+      className="relative pt-24 pb-16 text-white overflow-hidden"
     >
-      <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+      {/* Video de fondo */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover z-0"
+      >
+        <source src="/Hero/bacteria_fondo.mp4" type="video/mp4" />
+        Tu navegador no soporta el video.
+      </video>
+
+      {/* Overlay de gradiente */}
+     <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-red-950/80 to-transparent z-10"></div>
+
+      {/* Contenido principal */}
+      <div className="relative z-20 px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="text-center">
           <h1 className="text-4xl font-bold tracking-tight md:text-5xl">
             Simulador de Resistencia Bacteriana
