@@ -18,7 +18,7 @@ const DownloadSection: React.FC = () => {
               <div className="flex flex-col gap-3 mt-6 sm:flex-row">
                 <div className="rounded-md shadow">
                   <a
-                    href="https://www.mediafire.com"
+                    href="https://www.mediafire.com/file/gib6kfhzw3bkchd/SimuladorEvolutivo_Instalador.exe/file"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white transition-colors duration-300 bg-red-800 border border-transparent rounded-md hover:bg-red-700"
