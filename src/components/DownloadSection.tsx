@@ -1,5 +1,5 @@
 import React from 'react';
-import { Download, ArrowRight } from 'lucide-react';
+import { Download } from 'lucide-react';
 
 const DownloadSection: React.FC = () => {
   return (
