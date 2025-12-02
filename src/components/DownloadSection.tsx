@@ -18,7 +18,7 @@ const DownloadSection: React.FC = () => {
               <div className="flex flex-col gap-3 mt-6 sm:flex-row">
                 <div className="rounded-md shadow">
                   <a
-                    href="https://pub-6dc8e72c1b464e72827c9deeefb03889.r2.dev/SimuladorEvolutivo_Instalador.exe"
+                    href="https://pub-6dc8e72c1b464e72827c9deeefb03889.r2.dev/SimuladorEvolutivo_v1.0.0_Setup.exe"
                     download
                     className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white transition-colors duration-300 bg-red-800 border border-transparent rounded-md hover:bg-red-700"
                   >
